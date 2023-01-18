@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>dz</title>
+	<link rel="stylesheet" href="styles.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <div id="content">
+    <header>
+		
+		<div id="line">
+		</div>
+      
+        <div id="potolok">
+            <img id="logo" src="./1/1.png"></a></img>
+            <a id="ulgtu" > Ульяновский государственный технический университет </a>
+			<a id="obunivers" href="https://ulstu.ru/about/history/" > Об университете </a>
+			<a id="postup" href="#viborspec" > Поступающим </a>
+			<a id="obuch" 	href="https://old.ulstu.ru/main/view/article/5000" > Обучающимся </a>
+            <form id="search">
+                <input type="hidden" name="searchid" value="808327">
+                <input type="search" name="text" required="" placeholder="     Я ищу..." id="search2">
+                <img id="lupa" src="./1/IconSearch.png"> </img>
+            </form> 
+			<button id="podatdokverh"  >
+            <a id="chitat" href="#podacha">Подать документы</a>
+        </button>
+			<img id="burger" src="./1/onlyicon.png"></a></img></div>
+    </header><div>
+		
+	<img id="img1" src="./1/kar1.png">
+	<img id="upr" src="./1/upr.png"> </img>
+<button id="but" onclick="swap_img()"></button>
+<button id="but2" onclick="swap_img()"></button></div>
+	<!-- <div id="slide"> -->
+	<!-- <h2 id="zagolovok">Более тысячи бюджетных мест выделено в УлГТУ для поступающих в 2022 году</h2> -->
+	<!-- <img id="priem" src="./1/priem.png"> </img> -->
+	
+ 
+	<!-- <a id="load"> </a>  -->
+	<!-- </div> -->
+	<h id="newsz">Новости</h>
+	<div id="n1">
+	<h id="n1n">Более тысячи бюджетных мест выделено в УлГТУ для поступающих в 2022 году</h>
+	<h id="n1d">20.12.2021</h>
+	</div>
+	<div id="n2">
+	<h id="n2n">УлГТУ вошел в мировой рейтинг Webometrics Ranking of World Universities</h>
+	<h id="n2d">20.12.2021</h>
+	</div>
+	<div id="n3">
+	<h id="n3n">В УлГТУ состоялось установочное заседание цифровой олимпиады «Волга-IT-2022»</h>
+	<h id="n3d">20.12.2021</h>
+	</div>
+	<div id="n4">
+	<h id="n4n">УлГТУ проведет День открытых дверей в онлайн-формате</h>
+	<h id="n4d">20.12.2021</h>
+	</div>
+	<div id="n5">
+	<h id="n5n">Соблюдайте ротивоковидные  меры</h>
+	<h id="n5d">20.12.2021</h>
+	</div>
+	<button id="allnews" >
+            <a id="all" href="https://ulstu.ru/news/">Все новости</a>
+        </button>
+	<div id="infopole">
+	<h id="programma">Профиль "Программная инженерия" </h>
+	<h id="opisanie">Направление нацелено на подготовку своего рода изобретателей,
+	облегчающих жизнь людей за счет воплощения в жизнь сложных технических и программных решений.
+	Выпускники получают необходимые теоретические знания, а также практические умения и навыки разработки,
+	тестирования, проектирования, конструирования, администрирования программных систем.</h>
+	<h id="ege"> Обязательные предметы ЕГЭ: математика, русский язык
+Предметы ЕГЭ по выбору: информатика, физика </h>
+	<img id="kartprof" src="./1/kartprof.png"> 
+	<h id="kolvomest">Количество мест </h>
+	<h id="kolvobud">Бюджетные места </h>
+	<h id="cifraM">40</h>
+	<h id="cifraB">20</h>
+	</div>
+	<div id="viborspec">
+	<h id="viborzag">Выбери будущую специальность</h>
+	<div>
+                <select name="napr" id="napr">
+                    <option value="napr1" selected="">Информационные технологии</option>
+                    <option value="napr2">Архитектура и дизайн</option>
+                </select>
+            </div>
+            <div>
+                <select name="city" id="city" ></select>
+            </div>
+	<button id="vibor" >
+            <h id="vibortext">Показать информацию </h>
+			</div>
+        </button>
+	<h id="zag1">Подать документы</h>
+	<h id="zag2">Схема проезда</h>
+	<div id="podacha">
+	<div>
+                <select name="naprn" id="naprn">
+                    <option value="napr1n" selected="">Информационные технологии</option>
+                    <option value="napr2n">Информационные системы</option>
+                </select>
+            </div>
+            <div>
+                <select name="cityn" id="cityn" class="strelka_img"><option value="0">Информационно-коммуникационные технологии</option><option value="1">Технологии интернета вещей и электроника</option></select>
+            </div>
+	
+	<h id="fio">ФИО</H>
+	<h id="tel">Номер телефона</H>
+	<h id="email">Электронная почта</H>
+	<h id="pismo">Сопроводительное письмо</H>
+	<div id="zagruzka">
+	<h id="zagrtext">Загрузите файлы простым переносом или по кнопке ниже</h>
+	<button id="zagrfail" >	
+            <h id="zagrfailtext">Загрузить файл</h>
+			<img id="imgzag" src="./1/iconattach.png"></img>
+			
+        </button></div>
+	<button id="poddok"> <h id="pdtext">Подать документы</h>
+        </button>
+		<form class="obratnuj-zvonok" autocomplete="off" action="example@email.com" enctype="text/plain" method="post">
+        <input type="text" name="text" required="" placeholder="Укажите ФИО здесь" id="FIO1">
+        <input type="text" name="text" required="" placeholder="Электронная почта" id="emeil">
+        <input type="text" name="text" required="" placeholder="Телефон" id="telefon">
+        <!-- <input id="knopkapochta" value="ОТПРАВИТЬ" type="submit"> -->
+    </form></div>
+	</div>
+	<div id="karta">
+	<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A767435bdc77df6fa9bf98e036708f08fe9705e59a15daec829c7817143c41616&amp;width=428&amp;height=420&amp;lang=ru_RU&amp;scroll=true"></script></div>
+	<div id="podval">
+	<a id="obunivers2"href="https://ulstu.ru/about/history/">Об университете</a>
+	<a id="perechen" href="https://ulstu.ru/abitur/bak-spec-mag/"  >Перечень дисциплин</a>
+	<a id="dokunivers" href="https://old.ulstu.ru/sveden/document/" >Документы института</a>
+	<a href="https://vk.com/ulstu73"><img id="vk" src="./1/vk.png"></img></a>
+	<a href="https://www.facebook.com/ulstu73/"><img id="fb" src="./1/fb.png"></img></a>
+	<a href="https://www.instagram.com/ulstu_gram/"><img id="ig" src="./1/ig.png"></img></a>
+	<a href="https://www.youtube.com/channel/UCFYtcIN7SAzjPYqht_9uf3Q"><img id="yt" src="./1/yt.png"></img></a>
+	<a href="https://twitter.com/ulstu_twit"><img id="tt" src="./1/tt.png"></img></a>
+	<h id="adresa">Адреса и контакты 432027, г.Ульяновск, ул. Северный Венец, д.32 +7 (8422) 43-06-43, rector@ulstu.ru</h>
+
+	</div>
+	<script>
+	var arr_src = ['./1/kar1.png', './1/kar2.png'];
+  var i = 0;
+  function swap_img(){
+   var img1 = document.getElementById('img1'); 
+   img1.setAttribute('src', arr_src[i]);
+   if (i < arr_src.length - 1)
+     i++;
+   else
+     i = 0;
+ }
+  
+var cities = {
+  napr1: ["Программная инженерия", "Информационные системы"],
+  napr2: ["Медиапроектирование и графический дизайн", "Проектирование городской среды"],
+  
+};
+var napr = document.getElementById("napr");
+var city = document.querySelector("#city");
+window.onload = selectNapr;
+napr.onchange = selectNapr;
+
+function selectNapr(ev){
+  city.innerHTML = "";
+  var c = this.value || "napr1", o;
+  for(let i = 0; i < cities[c].length; i++){
+    o = new Option(cities[c][i],i,false,false);
+    city.add(o);
+  };
+}
+	</script>
+	
+</div></body></html>
